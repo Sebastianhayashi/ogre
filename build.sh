@@ -2,7 +2,7 @@
 
 # Step 1: 安装依赖
 echo "Installing dependencies..."
-sudo yum install -y poco-* libXaw doxygen cppunit tbb-devel zziplib
+sudo yum install -y poco-* libXaw doxygen cppunit tbb-devel zziplib cppunit-devel libXaw-devel
 
 # Step 2: 下载 ogre 1.10.0 源码
 echo "Downloading ogre 1.10.0 source..."
